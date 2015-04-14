@@ -1,0 +1,22 @@
+/* _typography.less START */
+@font-family-base: 'Questrial', @font-family-sans-serif;
+@headings-font-family: 'Sanchez', @font-family-serif;
+
+article {
+  header {
+    .page-header();
+  }
+  
+  section {
+    p {
+      &:first-of-type { .lead(); }
+    }
+  }
+  
+  footer {
+    padding-top: ((@line-height-computed / 2) - 1);
+    margin: (@line-height-computed * 2) 0 @line-height-computed;
+    border-top: 1px solid @page-header-border-color;
+  }
+}
+/* _typography.less END */

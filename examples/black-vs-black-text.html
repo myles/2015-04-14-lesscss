@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Black vs. Black</title>
+		
+		<style type="text/less">
+			body { font-size: 24px; }
+			
+			.wrapper {
+				max-width: 600px;
+				margin: 1em auto;
+				
+				div {
+					width: 50%;
+					
+					&.offblack {
+						color: #141414;
+						
+						float: right;
+					}
+					
+					&.black {
+						color: #000000;
+						
+						float: left;
+					}
+				}
+				
+				h1 {
+					font-size: 3em;
+					text-align: center;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="offblack">
+				<h1>Hello, World!</h1>
+			</div>
+			<div class="black">
+				<h1>Hello, World!</h1>
+			</div>
+		</div>
+		
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js"></script>
+	</body>
+</html>
